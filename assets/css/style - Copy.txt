@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #C55C6F;
+}
+
+a {
+    color: #c55C6F;
+    text-decoration: none;
+}
+
+body {
+    background-color: #F5EDEC;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    height: 10dvh;
+    border: .5px #C55C6F solid;
+
+    nav1 {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
+
+    .left-header {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+        
+}
+
+.btn {
+    padding: .5rem 1.7rem;
+
+    &.nav-btn {
+        height: 10dvh;
+        display: flex;
+        align-items: center;
+        border-bottom: 2px transparent solid;
+
+        transition: all ease 1s;
+
+        &:active {
+            border-bottom: 2px #C55C6F solid;
+            transform: scale(1.05);
+        }
+
+        &:hover {
+            border-bottom: 2px #6a1323 solid;
+            background-color: #f1bdc7;
+            transform: scale(1.05);
+
+            p {
+                color: #7e3030;
+            }
+        }
+
+    }
+
+    &.call-to-action {
+        border: 1px #C55C6F solid;
+        border-radius: 100px;
+        background-color: #e098a5;
+        height: fit-content;
+        box-shadow: 0rem 0rem 0px rgba(204, 112, 112, 0.75);
+        -webkit-box-shadow: 0rem 0rem 0px 0px rgba(204, 112, 112, 0.75);
+        -moz-box-shadown: 0rem 0rem 0px 0px rgba(204, 112, 112, 0.75);
+        transition: all ease 0.2s;
+
+        p {
+            color: #FFFFFF;
+        }
+
+        &:hover {
+            transform: translate(-0.5rem, -0.5rem);
+            box-shadow: 0.2rem 0.2rem 0px rgba(204, 112, 112, 0.75);
+            -webkit-box-shadow: 0.2rem 0.2rem 0px 0px rgba(204, 112, 112, 0.75);
+            -moz-box-shadow: 0.2rem 0.2rem 0px 0px rgba(204, 112, 112, 0.75);
+        }
+
+        &:active {
+            transform: translate(-0.2rem, -0.2rem);
+            box-shadow: 0.2rem 0.2rem 0px 0px rgba(204, 112, 112, 0.75);
+            -webkit-box-shadow:  0.2rem 0.2rem 0px 0px rgba(204, 112, 112, 0.75);
+            -moz-box-shadow:  0.2rem 0.2rem 0px 0px rgba(204, 112, 112, 0.75);
+        }
+    }
+}
+
+.main {
+    height: calc(90dvh - 16rem);
+    display: flex;
+    flex-direction: row;
+    margin: 0rem 10rem 20rem 0rem;
+
+    .image {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        width: 45rem;
+        margin: 2rem 3rem 0rem 10rem;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        margin: 12rem 0rem 0rem 0rem;
+
+    }
+    h4 {
+        font-size: 7rem;
+        text-transform: uppercase;
+        font-weight: 200;
+        letter-spacing: 1rem;
+
+        transition: all ease 0.4s;
+        &:hover {
+            color: #C55C6F;
+            text-shadow: 0 0 10px rgba(255, 152, 152, 0.75);
+        }
+    }
+
+    h6 {
+        font-size: 2rem;
+        font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-weight: 50;
+        text-transform: uppercase;
+        letter-spacing: .5rem;
+        }
+
+        .description {
+            line-height: 5rem;
+        }
+    }
+
+.divider {
+    margin: 0rem 0rem 7rem 0rem;
+    border: 1px #C55C6F solid;
+    width: 100%;
+}
+
+.abtme {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    abt {
+        font-size: 5rem;
+        font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-weight: 50;
+        text-transform: uppercase;
+        letter-spacing: .5rem;
+        margin: 0rem 0rem 4rem 0rem;
+
+    }
+
+    h4 {
+        font-size: 3rem;
+        font-weight: 100;
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+        margin: 0rem 0rem 4rem 0rem;
+    }
+    h5 {
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        font-weight: 200;
+        letter-spacing: 0rem;
+    }
+
+    .divider1 {
+        display: flex;
+        align-items: center;
+        margin: 7.5rem 0rem 7.5rem 0rem;
+        border: 1px #C55C6F solid;
+        width: 100%;
+    }
+
+    .educ {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 5rem;
+
+        .jhs {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            h5 {
+                display: flex;
+                justify-content: center;
+                font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                font-size: 2rem;
+                letter-spacing: 0rem;
+                margin-bottom: 1rem;
+
+            }
+
+            h6 {
+                font-size: 2rem;
+                font-weight: 100;
+            }
+        }
+
+        .shs {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            h5 {
+                display: flex;
+                justify-content: center;
+                font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                font-size: 2rem;
+                letter-spacing: 0rem;
+                margin-bottom: 1rem;
+
+            }
+
+            h6 {
+                font-size: 2rem;
+                font-weight: 100;
+            }
+        }
+
+        .coll {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            h5 {
+                display: flex;
+                justify-content: center;
+                font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                font-size: 2rem;
+                letter-spacing: 0rem;
+                margin-bottom: 1rem;
+
+            }
+
+            h6 {
+                font-size: 2rem;
+                font-weight: 100;
+            }
+        }
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 15rem;
+
+        .tech {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+    
+            h5 {
+                display: flex;
+                justify-content: center;
+                font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                font-size: 2rem;
+                letter-spacing: 0rem;
+                margin-bottom: 1rem;
+    
+            }
+    
+            h6 {
+                font-size: 2rem;
+                font-weight: 100;
+            }
+        }
+
+        .progs {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+    
+            h5 {
+                display: flex;
+                justify-content: center;
+                font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                font-size: 2rem;
+                letter-spacing: 0rem;
+                margin: 1rem 0rem 1rem 0rem;
+            }
+    
+            h6 {
+                font-size: 2rem;
+                font-weight: 100;
+            }
+        }
+    }
+}
+
+.artworks {
+    display: flex;
+    align-items: column;
+    justify-content: center; 
+    margin: 0rem 0rem 15rem 0rem;
+
+    
+    art {
+        font-size: 5rem;
+        font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-weight: 50;
+        letter-spacing: .5rem;
+        text-transform: uppercase;
+    }
+}
+
+.soc {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 50;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    height: 10dvh;
+
+    
+
+    .soc1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
+
+
+

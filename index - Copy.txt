@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Website Portfolio</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="left-header">
+            <nav>
+                <a class="btn nav-btn active" href="">
+                    <p> About Me </p>
+                </a>
+
+                <a class="btn nav-btn" href="">
+                    <p> Artworks</p>
+                </a>
+
+                <a class="btn nav-btn" href="">
+                    <p> Socials </p>
+                </a>
+            </nav>
+
+        </div>
+
+    <nav1>
+        <b class="btn call-to-action active" href="">
+            <p> Contact </p>
+        </b>
+    </nav1>
+
+
+    </header>
+
+    <section class="main">
+
+        <div class="image">
+            <img class="mainimage" src="./assets/img/Main_Image_-_1.png" alt="">
+        </div>
+
+        <div class="text">
+            <h4> Anne <br> Reforma </h4>
+            <h6> Portfolio Website </h6>
+            <p class="description"> Hi! My name is Michelle Anne Reforma Lopez, also known as Anne Reforma. <br>  </p>
+        </div>
+    </section>
+
+
+    <section class="divider"></section>
+
+
+    <section class="abtme">
+        <div class="aboutme">
+            <abt> About Me </abt>
+
+            <h5> <p> I'm a digital artist specializing in digital drawing and animation. I am 19 years old from Caloocan City, Philippines. <br> I started creating digital arts in 2018 and learned more about animation in 2019. <br>
+                <br> As a current Multimedia Arts student, I strive to become better and to learn more in the field of arts.
+            </h5>
+
+
+            <section class="divider1"></section>
+
+
+            <h4> Education </h4>
+            <section class="educ">
+
+                <section class="jhs">
+                    <h5> Junior High (2017-2021) </h5>
+                    <h6> University of the East <br> -Caloocan City- <br>  </h6>
+
+                </section>
+
+                <section class="shs">
+                    <h5> Senior High (2021-2023) </h5>
+                    <h6> University of the East <br> -Caloocan City- <br>
+                        ICT - Programming and Animation
+                    </h6>
+                </section>
+
+                <section class="coll">
+                    <h5> College (2023-present) </h5>
+                    <h6> Far Eastern University,  <br>Institute of Technology
+                        <br> -Manila City- <br> Bachelor in Multimedia Arts
+                    </h6>
+                </section>
+            </section>
+
+
+            <section class="divider1"></section>
+
+
+            <h4> Skills </h4>
+            <section class="skills">
+                <section class="tech">
+                    <h5> Technical </h5>
+                    <h6> Digital Arts (Drawing and Animation) <br>
+                        Video Editing <br>
+                        Motion Graphics </h6>
+                </section>
+
+                <section class="progs">
+                    <h5> Programs I use (Mobile) </h5>
+                    <h6> Procreate <br> Alight Motion </h6>
+                    <h5> Programs I use (PC) </h5>
+                    <h6> Adobe Illustrator <br> Clip Studio Paint <br> Live2D Animation </h6>
+                </section>
+            </section>
+        </div>
+
+    </section>
+
+
+    <section class="divider"></section>
+
+
+    <section class="artworks">
+        <art> Artworks </art>
+        <section class="recents">
+            <img clas="" src="" alt="">
+            <img clas="" src="" alt="">
+            <img clas="" src="" alt="">
+            <img clas="" src="" alt="">
+            <img clas="" src="" alt="">
+            <h5>  </h5>
+        </section>
+    </section>
+
+
+    <section class="divider"></section>
+
+
+    <section class="soc"> Socials </section>
+    <section class="social">
+        <section class="soc1">
+            <b class="btn1 soc-btn active" href="">
+                <p> Instagram </p>
+            </b>
+
+            <b class="btn1 soc-btn" href="">
+                <p> Twitter </p>
+            </b>
+
+            <b class="btn1 soc-btn" href="">
+                <p> Tiktok </p>
+            </b>
+        </section>
+
+    <section class="footer">
+        <b class="btn1 call-to-action active" href="">
+            <p> Contact </p>
+        </b>
+    </section>
+
+    </section>
+
+</body>
+</html>
